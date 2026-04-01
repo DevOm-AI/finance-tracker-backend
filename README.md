@@ -22,6 +22,8 @@ database.py: Manages the connection pool and session lifecycle.
 
 main.py: Houses the API routes and business logic.
 
+crud.py: Encapsulates the CRUD and analytics logic, decoupling database operations from API routes.
+
 2. Role-Based Access Control (RBAC)
 To meet the "User Handling" requirement without the overhead of complex OAuth2 flows, I implemented a Header-based Permission System:
 
